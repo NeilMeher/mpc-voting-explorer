@@ -1,0 +1,153 @@
+{
+  "training": 18,
+  "testing": 12,
+  "dissent": 1,
+  "metrics": {
+    "majority": {
+      "accuracy": 0.9166666666666666,
+      "precision": null,
+      "recall": 0.0,
+      "balanced_accuracy": 0.5,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 11
+    },
+    "empirical": {
+      "accuracy": 0.6666666666666666,
+      "precision": 0.0,
+      "recall": 0.0,
+      "balanced_accuracy": 0.36363636363636365,
+      "true_positive": 0,
+      "false_positive": 3,
+      "true_negative": 8
+    },
+    "balanced": {
+      "accuracy": 0.6666666666666666,
+      "precision": 0.2,
+      "recall": 1.0,
+      "balanced_accuracy": 0.8181818181818181,
+      "true_positive": 1,
+      "false_positive": 4,
+      "true_negative": 7
+    },
+    "leaked": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "balanced_accuracy": 1.0,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 11
+    }
+  },
+  "predictions": [
+    {
+      "meeting": "2025-04-09",
+      "member": "Nagesh Kumar",
+      "dissent": false,
+      "majority": false,
+      "empirical": false,
+      "balanced": false,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-04-09",
+      "member": "Saugata Bhattacharya",
+      "dissent": false,
+      "majority": false,
+      "empirical": true,
+      "balanced": true,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-04-09",
+      "member": "Ram Singh",
+      "dissent": false,
+      "majority": false,
+      "empirical": false,
+      "balanced": false,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-04-09",
+      "member": "Rajiv Ranjan",
+      "dissent": false,
+      "majority": false,
+      "empirical": false,
+      "balanced": false,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-04-09",
+      "member": "M. Rajeshwar Rao",
+      "dissent": false,
+      "majority": false,
+      "empirical": false,
+      "balanced": false,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-04-09",
+      "member": "Sanjay Malhotra",
+      "dissent": false,
+      "majority": false,
+      "empirical": true,
+      "balanced": true,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-06-06",
+      "member": "Nagesh Kumar",
+      "dissent": false,
+      "majority": false,
+      "empirical": false,
+      "balanced": false,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-06-06",
+      "member": "Saugata Bhattacharya",
+      "dissent": true,
+      "majority": false,
+      "empirical": false,
+      "balanced": true,
+      "leaked": true
+    },
+    {
+      "meeting": "2025-06-06",
+      "member": "Ram Singh",
+      "dissent": false,
+      "majority": false,
+      "empirical": false,
+      "balanced": false,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-06-06",
+      "member": "Rajiv Ranjan",
+      "dissent": false,
+      "majority": false,
+      "empirical": false,
+      "balanced": true,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-06-06",
+      "member": "Poonam Gupta",
+      "dissent": false,
+      "majority": false,
+      "empirical": false,
+      "balanced": false,
+      "leaked": false
+    },
+    {
+      "meeting": "2025-06-06",
+      "member": "Sanjay Malhotra",
+      "dissent": false,
+      "majority": false,
+      "empirical": true,
+      "balanced": true,
+      "leaked": false
+    }
+  ]
+}

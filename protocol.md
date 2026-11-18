@@ -1,0 +1,5 @@
+# Study protocol
+
+Question: can simple text features distinguish rate dissent from agreement on new meetings? Define dissent as preferring a different policy repo rate from the adopted one. Treat a preference for a smaller cut as dissent even where the minutes list “Yes.” Exclude stance votes. Use fifty-fifth and fifty-fourth meetings (June and April 2025) as held-out meetings. Train on June, August and December 2024. Each record contains one manually paraphrased reason and a source locator.
+
+Compare majority-class predictions with unigram Naive Bayes using observed class priors and equal class priors. Report accuracy, dissent precision and recall, and balanced accuracy. The main predictor sees only the economic reason. Remove explicit vote labels, member names and signed changes from model input. As a leakage demonstration, compare against a deliberately invalid rule that reads the explicit vote label inserted in the same record. The texts are analyst-created paraphrases of post-meeting minutes and do not simulate information available ahead of a meeting.
